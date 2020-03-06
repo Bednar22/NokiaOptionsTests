@@ -9,7 +9,8 @@ import CreateUser from "./components/create-user.component";
 import Counter from "./components/counter.component";
 import EventBind from "./components/clickFunction.component";
 import ParentComponent from "./components/parent.component";
-
+import UserGreeting from './components/ifstatements.component';
+import NameList from './components/name-list.component'
 function App() {
   return (
     <Router>
@@ -24,7 +25,11 @@ function App() {
         <EventBind/>
       <br/>
       <ParentComponent/>
-
+      <br/>
+      <UserGreeting/>
+      <br/>
+      <NameList/> 
+      <br/>
       </div>
     </Router>
 
