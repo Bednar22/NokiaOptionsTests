@@ -40,6 +40,7 @@ function App() {
       <br/> */}
 
       <StyleSheets primary={false} />
+      <StyleSheets primary={true} />
       <Form />
       </div>
     </Router>
